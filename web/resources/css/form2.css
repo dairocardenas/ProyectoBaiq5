@@ -1,0 +1,81 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img{
+    height: 15vh;
+    margin-bottom: 30px;
+    
+}
+
+.fondo {
+    height: 100%;
+    background:linear-gradient(rgba(66, 14, 18, 0.5), rgba(0,0,0,0.8)), url(../img/login.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+
+
+}
+
+form {
+    background: url(../img/logo.jpeg);
+    display: grid;
+    place-items: center;
+    background: #d5d7de;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px;
+    width: 70%; 
+    height: 100%;
+    padding-top: center;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.btn{
+    display: flex;
+    
+}
+input[type=button]{
+    display: inline-block;
+    color: #ffffff;
+    width: 50%;
+    font-size: 12px;
+    font-weight: bolder;
+    border: none;
+    margin: 0px 15px;
+    cursor:pointer
+    
+}
+
+form[value=Registrarse]{
+    background: red;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+      
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.form-check{
+    align-items: center;
+}
+
+		
